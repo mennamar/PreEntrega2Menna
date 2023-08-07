@@ -1,0 +1,278 @@
+* {
+    margin:auto ;
+    list-style: none;
+    font-family: cursive;
+    font-size: 30px;
+    
+}
+
+header {
+    width: 100%; 
+    z-index: 100;
+    background-color: rgb(156, 41, 172);
+    text-align: center;
+    position: sticky;
+    viewport-fit: cover;
+    text-decoration: none;
+}
+ 
+header nav div img {
+    width: 80%;
+    align-items:center;
+}
+
+#paginas {
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    column-gap: 10px;
+    margin: 0px;
+    padding: 0px;
+} 
+
+header nav ul li a:hover{
+font-size: 30px;
+color: pink;
+background-color:violet;
+padding: 3px;
+text-decoration: overline;
+}
+
+.mapa-de-pie-de-pagina {
+    display: inline;
+}
+
+footer .pie-de-pagina-logos {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+    justify-items: stretch;
+}
+
+.hermanas-gata img {
+    width: 50%;
+    height: auto;
+}
+
+.hermanas-gata p {
+    text-align: left;
+}
+ .hermanas-gata {
+    display:inline-block;
+ }
+
+.hermanos-perro img {
+    width: 50%;
+}
+
+.formulario-de-mensajes {
+    width: 700px;
+    margin: 70px 40px 30px 70px;
+    padding: 10px;
+    display: block;
+    text-align:left;
+    background-color: rgb(170, 147, 192);
+    border: 8px dotted rgb(116, 62, 167); 
+}
+
+.mi-portada .fotos-de-portada .fotos-portada {
+    padding: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ .historia-de-rita {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    bottom: 0px;
+
+    background-color:rgb(173, 138, 206);
+ }
+
+ .historia-de-rita img {
+    width: 100%;
+    height: auto;
+ }
+
+
+.hermanas-gata {
+    width: 100%;
+    background-color: rgb(209, 179, 236);
+    padding: 10px;
+}
+
+ .hermanas-gata .gata-nicole {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: 8px rgb(165, 22, 248) dotted;
+    padding: 20px;
+
+}
+
+.hermanas-gata .gata-flaca {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border: 8px rgb(165, 22, 248) dotted;
+    padding: 20px;
+
+
+}
+
+.hermanos-perro {
+    width: 100%;
+    background-color: rgb(209, 179, 236);
+    bottom: 10px;
+}
+
+.hermanos-perro .hermano-negro {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 8px rgb(165, 22, 248) dotted;
+
+}
+
+.hermanos-perro .hermana-barbi {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 8px rgb(165, 22, 248) dotted;
+
+}
+
+
+.fotos-portada {
+    width: 100%;
+    margin: 0 auto;
+    background-color:rgb(173, 138, 206);
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-rows: repeat(4,auto);
+    justify-content: space-around;
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+.foto-en-la-orca {
+    grid-column: 1/4;
+    width: 100%;
+
+}
+
+.foto-en-el-pelotero {
+    grid-column: 1/2;
+    width: 100%;
+    height: auto;
+
+}
+
+.foto-todos-durmiendo {
+    grid-column: 2/3;
+    width: 100%;
+    height: auto;
+
+}
+
+.beso-en-la-pileta{
+    grid-column: 3/4;
+    width: 100%;
+    height: auto;
+}
+
+.foto-negro-en-patineta{
+    grid-column: 1/2;
+    width: 100%;
+}
+
+
+.foto-todos-acostados {
+    grid-column: 2/3;
+    width: 100%;
+}
+
+.foto-en-el-inflable {
+    grid-column: 3/4;
+    width: 100%;
+}
+
+.foto-en-el-lago {
+    grid-column: 1/4;
+    width: 100%;
+    height: 100%;
+}
+
+footer div ul{
+    display: inline-block;
+    margin:  0px 0px 0px  ;
+}
+
+footer div iframe {
+    background-color: blueviolet;
+    width: 100%;
+    padding: 20px;
+    bottom: 0px;
+    display: flex;
+    text-align: center;
+}
+
+footer div ul {
+    background-color: blueviolet;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media (max-width: 767px)  {
+    #paginas {
+        display: block;
+        bottom: 10px;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .hermanos-perro .hermano-negro {
+        display: block;
+        width: 100%;
+        text-align: center;        
+        
+    }
+    .hermanos-perro .hermana-barbi {
+        display: block;
+        width: 100%;
+        text-align: center;        
+    }
+    .hermanas-gata .gata-nicole {
+        display: block;
+        width: 100%;
+        text-align: center;        
+        
+    }
+    .hermanas-gata .gata-flaca {
+        display: block;
+        width: 100%;
+        text-align: center;        
+    }
+    footer div ul li  {
+        width: 45px;
+        font-size: 20px;
+        margin: 0px 0px;
+        text-align: center;
+        align-items: center;   
+    }
+}
+
